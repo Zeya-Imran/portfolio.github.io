@@ -1,0 +1,192 @@
+@charset "utf-8";
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#particles-js{
+	height: 710px;
+}
+
+.bgcolor{
+ 	 background-image: linear-gradient(to right top, #3163ad, #00679d, #006275, #00593f, #074c08);
+}
+
+ .textcolor{
+ 	color: white;
+ }
+
+.brand-name{
+	font-family: "Righteous",sans-serif;
+	font-size: 25px;
+}
+.navbar a{
+	color: white;
+	font-family: "PT Sans",sans-serif;
+	letter-spacing:2px;
+
+}
+
+.header-tag,.first-header-tag{
+	font-family: "Righteous",sans-serif;
+	font-size: 150px;
+	letter-spacing:8px;
+	text-shadow: 4px 4px 4px #F9F871;
+}
+
+.header-subtag{
+	font-family: "PT Sans",sans-serif;
+	font-size: 60px;
+	letter-spacing:2px;
+	color: #7FD1AE;
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+
+.carousel-indicators{
+	bottom: -120px;
+}
+
+.carousel-indicators li.active{
+	background-color: yellow;
+}
+
+.myname{
+	font-family: "Righteous",sans-serif;
+	font-size: 150px;
+	letter-spacing:8px;
+	text-shadow: 4px 4px 4px #aaa;
+	color: white;
+}
+
+.nav-item:hover a{
+	border-bottom:solid 2px #008C82;
+	transition: .5s;
+	animation: borders s;
+}
+
+ a .brand-name:hover{
+	border-bottom: solid 2px #008C82;
+	transition: .5s;
+	animation: borders 0.5s;	
+}
+
+.details-bg{
+	background-image: url("../image/face.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+/*	background-image: linear-gradient(to right top, #000000, #120a0e, #1b1219, #201925, #232032, #20273b, #1a2e44, #0f354b, #003b4d, #00414d, #00464b, #014b46);
+*/
+}
+.details-box{
+	background-color:rgba(0,0,0,0.5);
+	
+}
+.me-pic-box img{
+	
+	width: 80%;
+	border: 2px solid #9e9e9e;
+	filter: grayscale(100%);
+	box-shadow: rgba(#fff,0.5);
+
+
+}
+
+.me-pic-box img:hover{
+	filter: none;
+
+}
+.aboutme{
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 3px;
+}
+
+.about{
+	font-family: "PT Sans",sans-serif;
+	letter-spacing: 3px;
+}
+
+hr{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes borders{
+	0%{ 
+		border-bottom: solid 2px #262626; 
+		width: 20%;
+	}
+	50%{
+		border-bottom: solid 2px #fff; 
+		width: 50%;
+	}
+
+	100%{
+		border-bottom: solid 2px #008C82; 
+		width: 100%;
+	}
+}
+
+
+
+
+
