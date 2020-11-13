@@ -1,2 +1,2 @@
 # portfolio.github.io
-Zeya Imran portfolio.
+Zeya Imran portfolio
